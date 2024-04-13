@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteTask } from '../../redux/taskSlice';
+import { deleteTask } from '../../redux/todosSlice';
 
 function Task () {
     const dispatch = useDispatch()
